@@ -1,0 +1,121 @@
+.menu{
+    margin: 32px auto;
+    padding-left: 120px;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.menu-left{
+    flex-basis: 50%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.menu-right{
+    flex-basis: 53.5%;
+    margin-bottom: 1%;
+}
+.imagen{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    transform: translateY(28px);
+}
+.menu-right{
+    margin-left: 120px;
+}
+.menu-left h2{
+    font-size: 35px;
+    color: #fa8313;
+    margin: 10px;
+    margin-left: 35px;
+    max-width: 400px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Playwrite BE VLG";
+}
+.menu p{
+    color: #3f3f3f;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    text-align: justify;
+    width: 445px;
+    justify-content: center;
+    text-align: center;
+}
+.botonmenu{
+    margin-top: 7px;
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 1280px){
+    .menu-right{
+        margin-left: -18px;
+    }
+    .menu-left{
+        margin-left: -20px;
+    }
+}
+@media (max-width: 1024px){
+    .menu-right{
+        margin-left: -18px;
+    }
+    .menu-left{
+        margin-left: -116px;
+    }
+}
+@media (max-width: 800px){
+    .menu-right h2{
+        font-size: 30px;
+    }
+    .menu-left{
+        margin-left: -125px;
+    }
+    .menu-right{
+        margin-left: 25px;
+    }
+    .menu-right p{
+        font-size: 17px;
+        width: 340px;
+    }
+    .menu-left img{
+        width: 350px;
+    }
+}
+@media (max-width: 768px){
+    .menu-right p{
+        width: 310px;
+    }
+}
+@media (max-width: 500px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .menu-left{
+        flex-basis: 100%;
+        order: 2;
+        margin-right: -5px;
+    }
+    .menu-left img{
+        width: 290px;
+    }
+    .menu-right{
+        flex-basis: 100%;
+        margin-right: 145px;
+        padding-bottom: 35px;
+    }
+    .menu-right h2{
+        width: 330px;
+    }
+    .menu-right p{
+        text-align: center;
+        margin-left: 10px;
+    }
+}

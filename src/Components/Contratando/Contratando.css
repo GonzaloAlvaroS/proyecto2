@@ -1,0 +1,112 @@
+.contratando{
+    margin: 32px 0;
+    padding-left: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.contratando-left{
+    flex-basis: 40%;
+    position: relative;
+    margin-bottom: 1%;
+}
+.contratando-right{
+    flex-basis: 50.5%;
+}
+.imagen1{
+    width: 440px;
+    height: 340px;
+    border-radius: 20px;
+}
+.contratando h3{
+    font-weight: 600;
+    font-weight: 16px;
+    font-size: 23px;
+    color: rgb(163, 109, 8);
+    font-family: "Edu AU VIC WA NT Hand";
+}
+.contratando h2{
+    font-family: "Playwrite BE VLG";
+    font-size: 35px;
+    color: #fa8313;
+    margin: 10px 0;
+    max-width: 400px;
+}
+.contratando p{
+    color: #3f3f3f;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 445px;
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 1280px){
+    .contratando-right{
+        margin-right: 15px;
+    }
+    .contratando-left{
+        margin-left: -26px;
+    }
+}
+@media (max-width: 1024px){
+    .contratando-right{
+        margin-right: 27px;
+    }
+    .contratando-left{
+        margin-left: -132px;
+    }
+}
+@media (max-width: 800px){
+    .contratando-left h2{
+        font-size: 30px;
+    }
+    .contratando-right{
+        margin-right: 33px;
+    }
+    .contratando-left{
+        margin-left: -152px;
+    }
+    .contratando-left p{
+        font-size: 17px;
+        width: 340px;
+    }
+    .contratando-right img{
+        width: 350px;
+    }
+}
+@media (max-width: 768px){
+    .contratando-left p{
+        width: 310px;
+    }
+}
+@media (max-width: 414px){
+    .contratando{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .contratando-right{
+        flex-basis: 100%;
+        order: 0;
+        margin-right: 185px;
+    }
+    .contratando-right img{
+        width: 290px;
+    }
+    .contratando-left{
+        flex-basis: 100%;
+        margin-left: -185px;
+        padding-bottom: 35px;
+    }
+    .contratando-left h2{
+        width: 330px;
+    }
+    .contratando-left p{
+        text-align: center;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,113 @@
+.horarios{
+    width: 100%;
+    min-height: 69vh;
+    background: linear-gradient(rgba(100, 47, 4, 0.7),rgba(8,0,58,0.7)), url("../../assets/hamhorarios.png");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.horarios-text{
+    text-align: center;
+}
+.horarios-text h1{
+    font-family: "Edu AU VIC WA NT Hand";
+    margin-top: -100px;
+    font-size: 60px;
+}
+.horarios-text2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 120px;
+    margin-left: -83px;
+}
+.horarios-text2 h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+.horarios1{
+    width: 220px;
+}
+.horarios2{
+    width: 130px;
+}
+.horarios3{
+    width: 130px;
+}
+/* ----- media query ---------- */
+
+@media (max-width: 1280px){
+    .horarios-text{
+        margin-left: 315px;
+    }
+    .horarios-text h3{
+        font-size: 21px;
+    }
+    .horarios-text h1{
+        font-size: 45px;
+        width: 700px;
+    }
+}
+@media (max-width: 1024px){
+    .horarios-text{
+        margin-left: 248px;
+    }
+    .horarios-text h3{
+        font-size: 16px;
+    }
+    .horarios-text h1{
+        font-size: 40px;
+        width: 700px;
+    }
+}
+@media (max-width: 800px){
+    .horarios-text{
+        margin-left: -100px;
+    }
+    .horarios-text h1{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .horarios-text h3{
+        margin-left: 103px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 414px){
+    .horarios-text{
+        margin-right: -100px;
+    }
+    .horarios-text h1{
+        font-size: 30px;
+        max-width: 360px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .horarios-text h3{
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .horarios-text h1{
+        max-width: 300px;
+        font-size: 25px;
+    }
+    .horarios-text h3{
+        font-size: 15px;
+    }
+}

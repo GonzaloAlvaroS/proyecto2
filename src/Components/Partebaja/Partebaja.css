@@ -1,0 +1,167 @@
+.partebaja{
+    width: 100%;
+    min-height: 52vh;
+    background: linear-gradient(rgba(100, 47, 4, 0.7),rgba(8,0,58,0.7)), url("../../assets/partebajafondo.png");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
+.partebajalogo{
+    text-align: center;
+    margin-bottom: 24px;  
+}
+.partebajalogo img{
+    width: 160px;
+    margin-top: 32px;
+}
+.partebajalogo p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.partebajabotones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 15px;
+}
+.partebajabotones img{
+    width: 48px;
+}
+.btnredes{
+    background: #ffffff;
+    color: #fff;
+    padding: 12px 12px;
+    font-size: 16px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+
+.partebaja2{
+    width: 100%;
+    min-height: 30vh;
+    background-color: #fa8313;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
+.partebajainfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.partebajainfo p{
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.partebajainfo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.partebajainfo2 h3{
+    margin-top: 25px;
+}
+.partebajainfo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.partebajainfo3 p{
+    margin-top: 25px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+
+/* ----- media query ---------- */
+@media (max-width: 1280px){
+    .about-text{
+        margin-right: 518px;
+    }
+    .about-text h3{
+        font-size: 21px;
+    }
+    .about-text h1{
+        font-size: 45px;
+        width: 700px;
+    }
+}
+@media (max-width: 1024px){
+    .about-text{
+        margin-right: 295px;
+    }
+    .about-text h3{
+        font-size: 16px;
+    }
+    .about-text h1{
+        font-size: 40px;
+        width: 700px;
+    }
+}
+@media (max-width: 800px){
+    .about-text{
+        margin-right: 102px;
+    }
+    .about-text h1{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .about-text h3{
+        margin-left: 103px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 414px){
+    .about-text{
+        margin-right: 0px;
+    }
+    .about-text h1{
+        font-size: 30px;
+        max-width: 360px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .about-text h3{
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .about-text h1{
+        max-width: 300px;
+        font-size: 25px;
+    }
+    .about-text h3{
+        font-size: 15px;
+    }
+}

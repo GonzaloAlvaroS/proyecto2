@@ -1,0 +1,97 @@
+.about{
+    width: 100%;
+    min-height: 69vh;
+    background: linear-gradient(rgba(100, 47, 4, 0.7),rgba(8,0,58,0.7)), url("../../assets/hampreparando.png");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-text{
+    text-align: center;
+    max-width: 600px;
+}
+.about-text h1{
+    font-family: "Edu AU VIC WA NT Hand";
+    margin-top: -30px;
+}
+.about-text p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* ----- media query ---------- */
+@media (max-width: 1280px){
+    .about-text{
+        margin-right: 518px;
+    }
+    .about-text h3{
+        font-size: 21px;
+    }
+    .about-text h1{
+        font-size: 45px;
+        width: 700px;
+    }
+}
+@media (max-width: 1024px){
+    .about-text{
+        margin-right: 295px;
+    }
+    .about-text h3{
+        font-size: 16px;
+    }
+    .about-text h1{
+        font-size: 40px;
+        width: 700px;
+    }
+}
+@media (max-width: 800px){
+    .about-text{
+        margin-right: 102px;
+    }
+    .about-text h1{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .about-text h3{
+        margin-left: 103px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 414px){
+    .about-text{
+        margin-right: 0px;
+    }
+    .about-text h1{
+        font-size: 30px;
+        max-width: 360px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .about-text h3{
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .about-text h1{
+        max-width: 300px;
+        font-size: 25px;
+    }
+    .about-text h3{
+        font-size: 15px;
+    }
+}

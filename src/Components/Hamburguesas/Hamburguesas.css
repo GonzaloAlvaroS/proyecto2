@@ -1,0 +1,124 @@
+.hamburguesas{
+    margin: 38px 100px;
+    text-align: center;
+}
+
+.titulos p{
+    font-size: 40px;
+    color: #fa8313;
+    font-weight: 600;
+    font-family: "Playwrite BE VLG";
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.gallery img{
+    width: 360px;
+    height: 340px;
+    border-radius: 10px;
+}
+.hamburguesas1{
+    flex-basis: 31%;
+    position: relative;
+    margin: 10px;  
+    padding: 0; 
+}
+.hamburguesas1texto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white; 
+    height: 100%; 
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px 0px;
+    font-size: xx-large;
+}
+.hamburguesas1texto p{
+    font-family: "Edu AU VIC WA NT Hand";
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 1280px){
+    .gallery{
+        margin-left: -40px;
+    }
+}
+@media (max-width: 1024px){
+    .titulos p{
+        font-size: 25px;
+    }
+    .titulos h2{
+        font-size: 25px;
+    }
+    .gallery{
+        margin-right: 42px;
+    }
+    .gallery img{
+        width: 110%;
+        margin-bottom: 23px;
+    }
+    .hamburguesas1{
+        margin-right: -50px;
+    }
+    .hamburguesas1texto{
+        font-size: 30px;
+        margin-left: 12px;
+        margin-top: 292px;
+    }
+}
+@media (max-width: 800px){
+    .titulos p{
+        font-size: 30px;
+    }
+    .titulos h2{
+        max-width: 600px;
+        font-size: 30px;
+    }
+    .gallery{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .gallery img{
+        margin-left: 23px;
+        width: 70%;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 414px){
+    .hamburguesas{
+        margin: 38px 47px;
+    }
+    .gallery{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery img{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .hamburguesas1texto{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 400px){
+    .titulos{
+        max-width: 400px;
+    }
+    .gallery img{
+        margin-left: 23px;
+        margin-bottom: 25px;
+    }
+    .hamburguesas1texto{
+        margin-left: 12px;
+        font-size: 28px;
+        margin-top: 295px;
+    }
+}

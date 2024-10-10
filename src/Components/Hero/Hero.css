@@ -1,0 +1,45 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(100, 47, 4, 0.7),rgba(8,0,58,0.7)), url("../../assets/fondo2.png");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.hero-text h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero-text h1{
+    font-family: "Playwrite BE VLG";
+    font-size: 70px;
+    color: rgb(163, 109, 8);
+    margin-top: -23px;
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
